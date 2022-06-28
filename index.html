@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Howto</title>
+    <link rel="Stylesheet" href="css\estilo.css">
+</head>
+<body>
+    <div class="all">
+    <h1>How To</h1>
+    <center><h2>Como fazer um site utilizando HTML e CSS?</h2></center>
+    <div class="text">
+    <div class="html">
+        <div class="cont">
+        <h2>Principais tags HTML</h2>
+        <img src="images\tag.png" alt="tag">
+        <div class="cont">
+        <p>
+            HTML (Hypertext Markup Language) é uma linguagem de marcação que utiliza tags de elementos como &lt;html&gt; para estruturar
+            e separar em pedaços o conteúdo que será apresentado em um web browser.<br>
+            Elementos são acompanhados de abertura e fechamento de tags. Cada tag começa e termina com colchetes angulares (<>).
+        </p>
+        <p>
+            Existem algumas tags vazias ou sem conteúdo que não podem incluir texto, como por exemplo a tag &lt;img&gt;.
+        </p>
+        </div>
+        <br>
+        <p>
+            Para saber mais <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/HTML">clique aqui</a>
+        </p>
+        <p>
+            Mais <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics">aqui</a>
+        </p>
+        <p>
+            <a href="pages\my_city\index.html">Exemplo de tag html</a>
+        </p>
+        </div>
+        <br><hr><br>
+        <div class="cont-0">
+        <h2>&lt;HTML&gt;</h2>
+        <p>
+            O elemento <span class="highlightme">&lt;html&gt;</span> (ou HTML root element) representa a raiz de um HTML ou XHTML. 
+            Todos os outros elementos devem ser descendentes desse elemento (com exceção da tag &lt;!DOCTYPE&gt;).
+        </p>
+        <h2>&lt;BODY&gt;</h2>
+        <p>
+            O elemento <span class="highlightme">&lt;body&gt;</span> representa o conteúdo de um documento HTML. É permitido apenas 
+            um &lt;body&gt; por documento.
+        </p>
+        <h2>&lt;H1...H6&gt;</h2>
+        <p>
+            Os elementos <span class="highlightme">&lt;h1&gt;-&lt;h6&gt;</span> representa seis níveis de título de seção. &lt;h1&gt; 
+            é o nível de seção mais alto e &lt;h6&gt; é o mais baixo.
+        </p>
+        <h2>&lt;A&gt;</h2>
+        <p>
+            O elemento <span class="highlightme">&lt;a&gt;</span> (ou elemento âncora), com o atributo href cria um hyperlink 
+            para páginas web, arquivos, endereços de email, locais na mesma página, ou qualquer coisa que uma URL pode levar.
+        </p>
+        <p>O conteúdo dentro de cada &lt;a&gt; deve indicar a destinação do link. Se o atributo href está presente, apertando a tecla 
+            enter sobre o elemento &lt;a&gt; irá ativá-lo.
+        </p>
+        <h2>&lt;PRE&gt;</h2>
+        <p>
+            O elemento<span class="highlightme">&lt;pre&gt;</span> representa texto pré formatado que deve ser apresentado exatamente 
+            como foi escrito no arquivo HTML.
+        </p>
+        <p>
+            O texto normalmente é renderizado usando uma fonte não-proporcional ou monospaced. O 
+            espaço em branco dentro deste elemento é mostrado como foi escrito.
+        </p>
+        <h2>&lt;LINK&gt;</h2>
+        <p>
+            O elemento <span class="highlightme">&lt;link&gt;</span> especifica relações entre o documento atual e uma outra fonte 
+            externa. Esse elemento é comumente usado para linkar stylesheets, mas também é usado para estabelecer ícones de site, 
+            entre outras coisas.
+        </p>
+        <h2>&lt;SPAN&gt;</h2>
+        <p>
+            O elemento <span class="highlightme">&lt;span&gt;</span> é um conteiner genérico com display inline-block, que não 
+            representa nada por natureza. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id), 
+            ou para compartilhar valores de atributos como lang.
+        </p>
+        <p>
+            Ele deve ser usado somente quando nenhum outro elemento semântico for 
+            apropriado. &lt;span&gt; é muito parecido com o elemento &lt;div&gt;, entretando &lt;div&gt; é um elemento de nível de bloco enquanto 
+            &lt;span&gt; é um elemento em linha.
+        </p>
+        <h2>&lt;OL&gt;</h2>
+        <p>
+            O elemento <span class="highlightme">&lt;ol&gt;</span> representa uma lista de itens ordenados. De forma característica esses itens 
+            ordenados em uma lista são mostrados com uma contagem que os precede, que pode ser de qualquer tipo, como numerais, letras, 
+            algarismos romanos, ou simples símbolos.
+        </p>
+        <p>
+            Esse modelo numerado não é definido na descrição html da página, mas na folha de estilos 
+            CSS associada, pela propriedade list-style-type (en-US). 
+        </p>
+        <h2>&lt;UL&gt;</h2>
+        <p>
+            O elemento <span class="highlightme">&lt;ul&gt;</span> (ou elemento de Lista desordenada) representa uma lista de itens sem 
+            ordem rígida, isto é, uma coleção de itens que não trazem uma ordenação numérica e as suas posições, nessa lista, são 
+            irrelevantes. 
+        </p>
+        <p>
+            Caracteristicamente, os itens em uma lista desordenada são exibidos com um marcador que pode ter várias formas, 
+            como um ponto, um círculo, ou um quadrado. O tipo de marcador não é definido na descrição HTML da página, mas na CSS associada, 
+            utilizando a propriedade list-style-type (en-US).
+        </p>
+        <h2>&lt;TABLE&gt;</h2>
+        <p>
+            O elemento <span class="highlightme">&lt;table&gt;</span> representa dados em duas dimensões ou mais.
+        </p>
+        <h2>&lt;DIV&gt;</h2>
+        <p>
+            O elemento <span class="highlightme">&lt;div&gt;</span>é um container genérico para conteúdo de fluxo, que de certa forma não 
+            representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles 
+            compartilham valores de atributos, como lang. Ele deve ser utilizado somente quando não tiver outro elemento de semântica 
+            (tal como &lt;article&gt; ou &lt;nav&gt;).
+        </p>
+        </div>
+    </div>
+    
+    <div class="css">
+        <div class="cont">
+        <h2>CSS</h2>
+        <img src="images\css_a.png" alt="tag">
+        <div class="cont">
+        <p>
+            CSS (Cascading Style Sheets) é uma linguagem usada para estilizar páginas web. Você ode criar sites com maior variedade e 
+            mais personalidade usando este recurso.
+        </p>
+        <p>
+            O CSS aplica diferentes recursos e propriedades ao conteúdo do documento que será apresentado em seu browser, como por exemplo 
+            alterações de fonte, cor, tamanho de texto, espaçamento do conteúdo, animações e outros recursos decorativos.
+        </p>
+        <p>
+            Para aplcar uma folha de estilos ao HTML você deve linká-la no arquivo usando a tag &lt;link&gt;. É possível ainda linkar o 
+            mesmo arquivo CSS em diversas páginas para que todas tenham o mesmo estilo.
+        </p>
+        </div>
+        <br>
+        <p>
+            Para saber mais <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/CSS">clique aqui</a><br>
+        </p>
+        <p>
+            <a href="pages\my_city\index.html">Exemplo de CSS</a>
+        </p>
+        </div>
+        <br><hr><br>
+        <div class="cont-0">
+        <h2>Seletores CSS</h2>
+        <p>
+            Um seletor CSS é a primeira parte de uma regra CSS. É um padrão de elementos e outros termos que informam ao navegador quais 
+            elementos HTML devem ser selecionados para que os valores de propriedade CSS dentro da regra sejam aplicados a eles. O elemento 
+            ou elementos que são selecionados pelo seletor são referidos como o assunto do seletor.
+        </p>
+        <h3>Seletor por tag</h3>
+        <p>Este seletor básico escolhe todos os elementos que correspondem ao nome fornecido.</p>
+        <p>Sintaxe: nome-da-tag</p>
+        <p>Exemplo: input corresponderá a qualquer elemento &lt;input&gt;.</p>
+        </p>
+        <h3>Seletor por classe</h3>
+        <p>Este seletor básico escolhe elementos baseados no valor de seu atributo classe. Sintaxe: .nome-da-classe</p>
+        <p>Examplo: .index irá corresponder a qualquer elemento que tenha o índice de classe (provavelmente definido por um atributo 
+            class="index", ou similar).</p>
+        <h3>Seletor por ID</h3>
+        <p>Este seletor básico escolhe nós baseados no valor do atributo id. Deve existir apenas um elemento com o mesmo ID no 
+            mesmo documento.</p>
+        <p>Sintaxe: #nome-do-id</p>
+        <p>Exemplo: #toc irá corresponder ao elemento que possuir o id=toc (definido por um atributo id="toc", ou similar).</p>
+        </p>
+        <img src="images\seletor.png" alt="seletor">
+        <h2>Usar classe ou ID?</h2>
+        <p>
+            O seletor de classe deve ser usado quando muitos elementos compartilham do estilo definido na regra. Por exemplo, se queremos 
+            alterar todos os parágrafos em uma página utilizamos o seletor de classe.
+        </p>
+        <p>
+            O seletor de id deve ser utilizado quando apenas um elemento deve receber o estilo definido na regra. Dessa forma, o elemento 
+            terá um estilo único na página e geralmente ele não se repete nela. Por exemplo, o menu lateral de um site, o avatar do usuário 
+            na barra de navegação ou o rodapé são candidatos a serem selecionados por ids e não classes, dada sua singularidade na página.</p>
+        <p>Portanto, lembre-se de usar id se o elemento não se repete na página. Em outro caso, use o seletor de classe.
+        </p>
+        </div>
+        <br>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
